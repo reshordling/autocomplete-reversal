@@ -10,7 +10,7 @@ public class GlobalConfig {
     // as we pretend to be a human being, then use the default value
     public Integer searchLimit = 11;
     // no more than sec per request
-    public Integer timeoutSec = 9;
+    public Integer timeoutSec = 10;
     // no more than N steps in a analysis
     public Integer maxDepth = 7;
 }
