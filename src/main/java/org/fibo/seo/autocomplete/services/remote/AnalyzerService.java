@@ -53,7 +53,9 @@ public class AnalyzerService {
         return calculate100Score(value);
     }
 
+    // Convert scores to value in range 0..100
     long calculate100Score(int value) {
+        // TODO consider exponential average
         return round(100. * value / pow(BASE, globalConfig.maxDepth));
     }
 
