@@ -1,0 +1,36 @@
+{
+  "alias":"aps",
+  "prefix":"iphone charger",
+  "suffix":null,
+  "suggestions":[
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger",
+      "refTag":"nb_sb_ss_i_1_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    }
+
+  ],
+  "suggestionTitleId":null,
+  "responseId":"H2FUNHCDNTF5",
+  "shuffled":false
+}

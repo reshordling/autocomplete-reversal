@@ -34,6 +34,8 @@ dependencies {
 
 	compile 'javax.inject:javax.inject:1'
 
+	compile 'org.slf4j:slf4j-api:1.7.30'
+
 	compile 'org.jsoup:jsoup:1.13.1'
 	compile 'com.fasterxml.jackson.core:jackson-core:2.10.3'
 	compile 'com.fasterxml.jackson.core:jackson-databind:2.10.3'

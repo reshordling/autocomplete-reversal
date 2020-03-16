@@ -1,0 +1,295 @@
+{
+  "alias":"aps",
+  "prefix":"iphone charger",
+  "suffix":null,
+  "suggestions":[
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger",
+      "refTag":"nb_sb_ss_i_1_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger",
+      "refTag":"nb_sb_ss_c_2_14",
+      "scopes":[
+        {
+          "type":"ALIAS",
+          "value":"electronics",
+          "display":"Electronics & Photo"
+
+        }
+
+      ],
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger cable",
+      "refTag":"nb_sb_ss_i_3_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger wireless",
+      "refTag":"nb_sb_ss_i_4_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger 3m",
+      "refTag":"nb_sb_ss_i_5_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger cable 3m",
+      "refTag":"nb_sb_ss_i_6_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger adapter",
+      "refTag":"nb_sb_ss_i_7_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger apple",
+      "refTag":"nb_sb_ss_i_8_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger original apple",
+      "refTag":"nb_sb_ss_i_9_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger 2m",
+      "refTag":"nb_sb_ss_i_10_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    },
+    {
+      "suggType":"KeywordSuggestion",
+      "type":"KEYWORD",
+      "value":"iphone charger cable apple",
+      "refTag":"nb_sb_ss_i_11_14",
+      "strategyId":"organic-pltr",
+      "ghost":false,
+      "help":false,
+      "queryUnderstandingFeatures":[
+        {
+          "source":"QU_TOOL",
+          "annotations":[
+
+
+          ]
+
+        }
+
+      ],
+      "fallback":false,
+      "blackListed":false,
+      "spellCorrected":false,
+      "xcatOnly":false
+
+    }
+
+  ],
+  "suggestionTitleId":null,
+  "responseId":"H2FUNHCDNTF5",
+  "shuffled":false
+}
