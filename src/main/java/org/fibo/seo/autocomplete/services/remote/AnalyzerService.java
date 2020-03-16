@@ -9,7 +9,11 @@ import com.fasterxml.jackson.databind.JsonNode;
 import org.fibo.seo.autocomplete.config.GlobalConfig;
 import org.fibo.seo.autocomplete.dto.KeywordWeightDto;
 import org.fibo.seo.autocomplete.dto.AutocompleteDto;
+import org.fibo.seo.autocomplete.exceptions.RemoteException;
 import org.fibo.seo.autocomplete.mappers.DtoMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
 
@@ -33,7 +37,10 @@ import java.util.Optional;
  * similar words, typo autoreplacement etc - usually less than 50% of
  * result.
  */
+@Service
 public class AnalyzerService {
+
+    private final Logger log = LoggerFactory.getLogger(AnalyzerService.class);
 
     private final AutocompleteService autocompleteService;
     private final GlobalConfig globalConfig;
@@ -49,8 +56,13 @@ public class AnalyzerService {
     }
 
     public long score(String keyword) {
-        int value = crawl(wrap(keyword, 0));
-        return calculate100Score(value);
+        try {
+            int value = crawl(wrap(keyword, 0));
+            return calculate100Score(value);
+        } catch (Exception e) {
+            log.error("The request cannot be handled", e);
+            throw new RemoteException("The request cannot be handled");
+        }
     }
 
     // Convert scores to value in range 0..100
@@ -94,8 +106,6 @@ public class AnalyzerService {
     private List<AutocompleteDto> collectLessPopular(
             List<AutocompleteDto> equallyWeightedVolumes) {
         return equallyWeightedVolumes.stream()
-                // usually self or typo correction eg. "pihone" to "phone"
-                .skip(1)
                 // skip self to avoid loops
                 .filter(volume -> !volume.isIdentical)
                 // aliases are related to marketing structure,
